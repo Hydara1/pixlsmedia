@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: #f8f8f8;
+  height: 100vh;
+  padding: 20px;
+}
+li {
+  list-style-type: none;
+}
+.nav-left a {
+  text-decoration: none;
+  color: #b7b7b7;
+}
+.nav-left a.active {
+  color: black;
+}
+/* designing the navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px 15px 20px 15px;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.nav-left {
+  display: flex;
+  gap: 100px;
+}
+.nav-left ul {
+  display: flex;
+  gap: 20px;
+}
+/* designing the ul */
+/* designing the input search */
+/* desgining the login btn */
+ul li input {
+  background-color: #e6e6e6;
+}
+.btn-wrapper button {
+  background-color: #d1ff97;
+}
+section {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+section .left {
+  display: flex;
+  flex-direction: column;
+  /* background: #ffe5e5; */
+  height: 100%;
+  flex: 1;
+  text-align: center;
+  /* padding: 30px; */
+  gap: 50px;
+}
+section .right {
+  flex: 1;
+  /* background-color: #d1ff97; */
+}
+.left .title-wrapper {
+  flex: 1;
+  text-transform: uppercase;
+}
+.left .title-wrapper span {
+  font-size: 25px;
+  font-weight: 500px;
+}
+.left .title-wrapper h1 {
+  font-size: 70px;
+  margin-top: 20px;
+  line-height: 75px;
+  font-weight: 500;
+}
+.left .create-account-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.create-account-wrapper button {
+  /* background-color: #d1ff97; */
+  border: none;
+  border-bottom: 2px solid black;
+  /* padding: 5px 5px; */
+  background-color: transparent;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 600;
+}
+.create-account-wrapper .arrow {
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+}
+.create-account-wrapper button:hover {
+  background: none;
+}
+button a {
+  text-decoration: none;
+  text-decoration-color: none;
+  font-size: 16px;
+  color: black;
+}
+.left-footer {
+  position: relative;
+  background: url(image/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+}
+.overlay {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  border-radius: 30px;
+  z-index: 0;
+}
+.content-left-footer {
+  z-index: 10;
+  display: flex;
+  padding: 100px;
+  gap: 20px;
+  /* width: 50%; */
+}
+.content-left-footer p {
+  text-align: left;
+}
+.right {
+  background: url(image/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 30px;
+}
+.form-title-wrapper {
+  text-align: center;
+  color: #e6e6e6;
+  margin: 40px 0;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* .form-title-wrapper { */
+/* text-transform: uppercase; */
+/* margin-bottom: 10px; */
+/* text-align: center; */
+/* } */
+.form-title-wrapper h3 {
+  text-transform: capitalize;
+}
+.form-wrapper {
+  z-index: 50px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  min-width: 300px;
+  width: 450px;
+  margin: 0 auto;
+}
+/* .form-wrapper {
+  text-align: center;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+} */
+
+form {
+  z-index: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.input-wrapper input {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  /* background-color: rgba(50, 50,93,0.25); */
+  outline: none;
+}
+.input-wrapper label {
+  color: rgba(50, 50, 93, 0.25);
+  padding-left: 10px;
+}
+form .remember-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.remember-wrapper a {
+  text-decoration: none;
+  color: #b7b7b7;
+}
+form button {
+  background-color: black;
+  padding: 15px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+}
+.wrapper h1 {
+  text-align: center;
+  justify-items: center;
+  margin: 10px;
+}
+.overlay {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  border-radius: 30px;
+  z-index: 0;
+}
